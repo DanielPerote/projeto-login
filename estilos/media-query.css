@@ -25,13 +25,16 @@
         width: 950px;
     }
     section#login > div#img{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#form{
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
+    }
+    div#form > p{
+        font-size: 1.2em;
     }
 }   
