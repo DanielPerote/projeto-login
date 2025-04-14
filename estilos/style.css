@@ -31,9 +31,13 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
     
 }
 div#img{
+    display: block;
     background: rgb(149, 149, 212) url(../imagens/pexels-vinixhc-31523679.jpg)no-repeat;
     background-size: cover;
     height: 200px;
